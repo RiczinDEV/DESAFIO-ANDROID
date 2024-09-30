@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'droid';
+    src: url('idroid.otf') format(opentype);
+}
+
+header{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px;
+    background: linear-gradient(to bottom, #4bbd77, rgb(0, 53, 0));
+    border-radius: 1px;
+    padding: 13px;
+    height: 134px;
+    box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.459);
+    margin: 0px;
+    width: 100%;
+    justify-content: space-around;
+}
+body{
+    background-color: rgb(172, 243, 172);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+a:hover{
+    color: rgba(4, 22, 122, 0.719);
+    
+}
+a{
+    color: rgb(12, 66, 39);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 2px;
+    position: relative;
+   
+}
+.container{
+    text-align: center;
+    margin: 50px;
+}
+main{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    box-shadow: 0px 3px 11px -4px rgba(48, 70, 48, 0.651);
+    border-radius: 8px;
+    padding: 2px;  
+    max-width: 800px;
+    min-width: 320px;
+    margin: auto;
+
+}
+img#cnt{
+    display: block;
+    margin: auto;
+    
+}
+div#list{
+    background-color: rgb(218, 241, 218);
+    box-shadow: 2px 2px 2px 2px rgba(76, 104, 104, 0.267);
+    border-radius: 10px;
+    height: 400px;
+    
+}
+h3{
+    background-color: green;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    height: 30px;
+    padding: 10px;
+    margin: 0px;
+}
+
+div#sla{
+    text-decoration: underline;
+    display: flex;
+    gap: 300px;
+    margin: 50px;
+}
+h2{
+    font-family: 'droid';
+    color: green;
+    background-color: rgba(206, 252, 206, 0.692);
+    text-align: center;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: darkgreen;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin: 0px auto;
+}
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tt4{
+    text-shadow: 2px 2px 0px black;
+}
